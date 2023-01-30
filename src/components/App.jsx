@@ -11,7 +11,9 @@ const App = () => {
   return (
     <div className="App">
       <Navbar />
-      <section className="cards-container">{data}</section>
+      <section className="cards-container mx-10 flex flex-col items-center">
+        {data}
+      </section>
     </div>
   );
 };
